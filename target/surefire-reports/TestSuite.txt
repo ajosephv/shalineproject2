@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 6.694 s <<< FAILURE! - in TestSuite
+framework.E2etesting.testcases.initialize  Time elapsed: 6.353 s  <<< FAILURE!
+org.openqa.selenium.InvalidArgumentException: 
+invalid argument
+  (Session info: chrome=91.0.4472.77)
+Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
+System info: host: 'LAPTOP-P34I9C3O', ip: '192.168.29.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2183e7be945d049479695a06c72af26f, get {url="http://qaclickacademy.com"}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\aarun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60367}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60367/devtoo..., se:cdpVersion: 91.0.4472.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2183e7be945d049479695a06c72af26f
+	at framework.E2etesting.testcases.initialize(testcases.java:21)
+
